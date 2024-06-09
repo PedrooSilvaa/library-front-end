@@ -34,6 +34,7 @@ const InserirBook = () => {
 
 return (
     <div className='containerInsertBook'>
+        <h1>Create New Book</h1>
         <form onSubmit={handleSubmit} className='formInserir'>
             <label>
                 Title

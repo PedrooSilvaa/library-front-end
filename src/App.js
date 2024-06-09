@@ -6,6 +6,7 @@ import SearchBook from "./components/pages/Search/SearchBook.js";
 import ListBook from "./components/pages/Books/Books.js";
 import InserirBook from "./components/pages/InserirBook/InserirBook.js";
 import Home from "./components/pages/Home/Home.js";
+import AboutBook from "./components/pages/AboutBook/AboutBook.js";
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
           <Route path="/search" element={<SearchBook />} />
 
           <Route path="/inserir" element={<InserirBook/>} />
+
+          <Route path="/search/:title/about" element={<AboutBook/>} />
 
         </Routes>
       </BrowserRouter>

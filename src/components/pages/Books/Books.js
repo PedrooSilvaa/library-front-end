@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { ListBooks } from '../../helpers/LibraryRequest'
 import './Books.css'
 import bookIcon from '../../../assets/e-book.png'
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const ListBook = () => {
   const [bookData, setBookData] = useState([]);
@@ -28,7 +28,7 @@ const ListBook = () => {
               <h3 className='titleBook'>{book.title}</h3>
               <img src={bookIcon} alt="" />
               <h3>{book.author}</h3>
-              <NavLink className={({ isActive }) => (isActive ? "active" : 'link')} to={'/search?title=' + book.title}>Detalhes</NavLink>
+              <NavLink className={({ isActive }) => (isActive ? "active" : 'link')} to={'/search/' + book.title + '/about'}>Detalhes</NavLink>
             </div>
           ))}
         </div>

@@ -1,0 +1,19 @@
+.containerAbout {
+    display: flex;
+    gap: 50px;
+}
+
+.containerAboutBook{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 253, 253, 0.3);
+    backdrop-filter: blur(5px);
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 20px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
