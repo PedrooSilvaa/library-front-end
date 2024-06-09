@@ -1,0 +1,35 @@
+.containerInsertBook{
+    background-color: rgb(255, 253, 253, 0.3);
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.formInserir {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formInserir label{
+    padding-top: 20px;
+}
+
+.formInserir input {
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.inputConfirmar {
+    background-color: black;
+    color: white;
+    width: 30%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
